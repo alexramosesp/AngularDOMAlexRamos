@@ -22,7 +22,10 @@ export class Practica2Component {
     // @ts-ignore
     texto.textContent = texto.textContent.toUpperCase()
     this.URL = document.location.href
-
+    let texto2 = document.getElementById("exercici1");
+    // @ts-ignore
+    texto.textContent = texto.textContent.toUpperCase()
+    this.URL = document.location.href
   }
 
 
