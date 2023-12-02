@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {yellowSubmarine} from './funcions'
-import {changeSize} from './funcions'
-import {wordCount} from './funcions'
+// @ts-ignore
+import {selectInDIV} from './funcions.js'
 
 @Component({
   selector: 'app-practica2',
@@ -23,11 +22,8 @@ export class Practica2Component {
     // @ts-ignore
     texto.textContent = texto.textContent.toUpperCase()
     this.URL = document.location.href
-    yellowSubmarine('exercici3')
-    changeSize('table')
-    this.count = wordCount('exercici6');
-    console.log('Word count:', this.count);
+
   }
 
-  protected readonly wordCount = wordCount;
+
 }
