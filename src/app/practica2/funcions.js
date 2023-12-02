@@ -15,3 +15,7 @@
 //    return element.textContent.split(' ').length;
 //}
 
+export function selectInDIV(idSelect, idDiv) {
+  document.getElementById(idDiv).innerHTML = document.getElementById(idSelect).innerHTML;
+}
+
